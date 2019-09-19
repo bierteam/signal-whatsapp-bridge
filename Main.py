@@ -11,9 +11,11 @@ x = WhatsApp(whatsappGroup)
 y = Signal(x)
 
 while True:
+    sleep(1)
     print("APP")
-    t = Thread(x.get_last_message())
-    t.start()
-
+    x.get_last_message
+    # t = Thread(x.get_last_message())
+    # t.start()
+    
     print("SIGNAL")
     y.getMessage()
